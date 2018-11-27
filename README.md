@@ -1,20 +1,21 @@
 # react_base_app
 Base para inicializar un proyecto en react:
 
-# Configurado para usar Typescript, Jest(test)
+# Configurado para usar Typescript, Jest(test), Dockerizado y Makefile
 
 # Para levantar el servidor
 Ejecutar desde la raiz el comando 
-yarn start
+make watch
 
 # Para construir el bundle
-Ejecutar desde la raiz el comando yarn prod
+Ejecutar desde la raiz el comando 
+make build
 
 # Para construir el bundle y levantar el servidor
-Ejecutar desde la raiz el comando yarn buildprod
+Ejecutar desde la raiz el comando  make buildprod
 
 # Para levantar el json server
-Ejecutar desde la raiz el comando yarn server
+Ejecutar desde la raiz el comando make server
 
 
 

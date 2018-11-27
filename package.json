@@ -4,8 +4,9 @@
   "description": "Ejemplos en React",
   "main": "/public/app.js",
   "scripts": {
+    "build:delete": "rimraf ./dist",
     "build": "webpack --colors --progress",
-    "start": "webpack-dev-server --colors --progress --mode development --open",
+    "start": "webpack-dev-server --port 3000 --hot --host 0.0.0.0 --colors --progress --mode development --open",
     "buildprod": "npm run build && npm run server",
     "prod": "webpack -p",
     "test": "jest",
@@ -50,6 +51,7 @@
     "enzyme": "^3.3.0",
     "enzyme-adapter-react-16": "^1.1.1",
     "enzyme-to-json": "^3.3.4",
+    "html-webpack-plugin": "^3.2.0",
     "identity-obj-proxy": "^3.0.0",
     "jest": "^22.4.4",
     "jest-junit": "^4.0.0",

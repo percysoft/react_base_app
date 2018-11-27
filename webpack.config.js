@@ -69,7 +69,7 @@ module.exports = {
     contentBase: endPath,
     inline: true,
     compress: true,
-    port: 9000,
+    port: 3000,
     publicPath: '/'
-  }
+  },
 };
